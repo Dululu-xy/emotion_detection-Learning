@@ -16,7 +16,8 @@ parser.add_argument('--path', type=str,
                     help="path of image")
 args = vars(parser.parse_args())
 
-# instanciar detector
+
+# instanciar  detector
 type_input = args['input']
 Detector = fed.predict_emotions()
 
